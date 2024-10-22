@@ -1,106 +1,31 @@
-Learning rate = 0.0001	Learning rate = 0.001	Learning rate = 0.01	Learning rate = 0.05
-Adaline BGD	Training Loss = 6.659
+## Project Notebooks
 
+### 1. **Analysis.ipynb**
+   - A comprehensive analysis of a dataset, exploring features, visualizations, and preprocessing steps necessary for machine learning tasks.
 
-Val. loss = 9.315
+### 2. **CNN_Regulaization.ipynb**
+   - Implementation of CNNs with regularization techniques such as L2 regularization (Ridge) and Dropout, aimed at preventing overfitting and improving generalization.
 
+### 3. **CNN_Regulaization_Q3.ipynb**
+   - A focused continuation of CNN regularization experiments, diving deeper into parameter tuning and testing various regularization methods.
 
+### 4. **Pytorch_Optimizers.ipynb**
+   - An exploration of various PyTorch optimizers (e.g., SGD, Adam, etc.), evaluating their performance on different models including Graph Neural Networks (GNNs).
 
-Test Loss = 9.416	Training Loss = 11046.513
+### 5. **adaline_sigmoid.ipynb**
+   - An implementation of the Adaline algorithm with a sigmoid activation function, exploring its application in linear classification.
 
+### 6. **adni-sample.ipynb**
+   - A sample analysis using the ADNI (Alzheimer's Disease Neuroimaging Initiative) dataset, performing basic data exploration and initial model development.
 
-Val. loss = 1656212.36
+### 7. **mini_batch_SGD.ipynb**
+   - A detailed look at mini-batch Stochastic Gradient Descent (SGD), comparing its performance to full-batch and online SGD in training neural networks.
 
+### 8. **mini_batch_SGD_Regulaization.ipynb**
+   - Further exploration of mini-batch SGD with the inclusion of regularization techniques like L2 and Dropout to prevent overfitting.
 
-Test Loss = 2168786.57	Training Loss = 5373997630002.89
+### 9. **neuron_simulation.ipynb**
+   - A simulation of a simple artificial neuron, demonstrating the behavior of different activation functions and their impact on learning.
 
-
-Val. loss= 9.162615815613731e+16
-
-
-TEST LOSS = 1.127060963762328e+17	Training Loss = 2.41933952826602e+18
-
-
-Val. loss= 1.0426907652988485e+24
-
-
-TEST LOSS = 10.509340271873054
-Adaline SGD	Training Loss = 6.264
-
-Val.loss = 9.522
-
-Test Loss = 9.664	Training Loss = 4.7612671815944125
-
-Val. loss= 9.149202585697784
-
-TEST LOSS = 9.16894512502506	Training Loss = 4.675
-
-
-Val. loss= 9.33
-
-
-TEST LOSS = 9.267	Training Loss = 72.044
-
-
-Val. loss= 9.82
-
-
-TEST LOSS = 10.509
-Sigmoid BGD	Training Loss = 10.059
-
-Val.loss = 19.294
-
-
-Test Loss = 21.408	Training Loss = 9.579
-
-
-Val. loss= 19.162
-
-
-TEST LOSS = 21.217	Training Loss = 4.7612671815944125
-
-Val. loss= 9.149202585697784
-
-TEST LOSS = 9.16894512502506	Training Loss = 9.539
-
-
-Val. loss= 19.153
-
-
-TEST LOSS = 21.217
-Sigmoid SGD	Training Loss = 9.903
-
-Val. loss = 19.309
-
-Test Loss = 21.429	Training Loss = 9.579
-
-
-Val. loss= 19.162
-
-TEST LOSS = 21.217	Training Loss = 9.78
-
-
-Val. loss= 19.13
-
-TEST LOSS = 21.968	Training Loss = 9.53
-
-
-Val. loss= 19.15
-
-TEST LOSS = 21.217
-
-
-
-
-Perceptron
-	Learning rate 0.001	Learning rate 0.01	Learning rate 0.05
-Average Validation Loss	0.58	0.060	0.101
-Average Validation Loss	0.967	0.982	0.976
-
-
-
-Pocket Algorithm
-	Learning rate 0.001	Learning rate 0.01	Learning rate 0.05
-Average Validation Loss	0.209	0.076	0.111
-Average Validation Loss	0.965	0.982	0.984
-
+### 10. **synthetic_dataset.csv**
+   - A synthetic dataset used throughout various notebooks for testing and demonstration purposes.
